@@ -283,10 +283,10 @@ while True:
         else:
             print("Invalid choice. Please try again.")
     elif selected_story_mode == "Another":
-        print("1. Choice for Good Ending: 10, 1, 17")
-        print("2. Choice for Normal Ending: 10, 1, 12")
-        print("3. Choice for Bad Relationship Ending: 0.2, 1, 1")
-        print("4. Choice for Bad Ending: 1, 1, 1")
+        print("1. For Good Ending: 10, 1, 17")
+        print("2. For Normal Ending: 10, 1, 12")
+        print("3. For Bad Relationship Ending: 0.2, 1, 1")
+        print("4. For Bad Ending: 1, 1, 1")
         choice_input = input("Enter your choice (1/2/3/4): ")
         if choice_input == "1":
             player_choices = [10, 1, 17]
